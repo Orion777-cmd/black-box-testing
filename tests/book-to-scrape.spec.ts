@@ -1,5 +1,4 @@
 import { test, expect } from "@playwright/test";
-import { TIMEOUT } from "dns";
 
 test("Books to Scrape - Price Boundary Check (0 to 100)", async ({
   page,

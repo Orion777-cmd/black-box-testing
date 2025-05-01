@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-const validEmail = "abiy.biru78@gmail.com";
-const validPassword = "Password@123"; 
+const validEmail = "testuser@example.com";
+const validPassword = "Password123"; 
 const invalidPassword = "wrongpassword";
 
 test.describe("State Transition Testing - Login Page", () => {
